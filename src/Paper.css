@@ -1,0 +1,52 @@
+
+.test-container{
+    padding-left: 40px;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px ;
+}
+
+.footer{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px dashed rgb(0, 6, 128) ;
+    background-color: rgba(148, 185, 240, 0.194);
+    padding: 2px;
+    margin-top: 16px;
+}
+
+#submitBtn{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(0, 34, 128);
+    transition: 0.5s;
+    background-color: rgb(71, 255, 47);
+}
+
+#submitBtn:hover{
+    background-color: rgba(172, 255, 47, 0.332);
+}
+
+#resetBtn{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    background-color: rgb(255, 47, 47);
+}
+
+#resetBtn:hover{
+    background-color: rgba(203, 203, 203, 0.332);
+    color: red;
+}

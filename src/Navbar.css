@@ -1,0 +1,11 @@
+.navbar{
+    display:flex;
+    justify-content: center;
+    border: 3px dashed rgb(0, 6, 128) ;
+    background-color: rgba(0, 102, 255, 0.194);
+}
+
+.navbar h2{
+    color: rgb(0, 28, 128);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
